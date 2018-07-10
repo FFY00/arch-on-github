@@ -1,4 +1,4 @@
-FROM base/archlinux:latest
+FROM base/devel:latest
 
 RUN pacman \
       --noconfirm \
@@ -17,7 +17,6 @@ RUN pacman \
       openssl \
       patch \
       pkg-config \
-      autoconf \
       cmake \
       meson \
       sudo && \
