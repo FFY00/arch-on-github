@@ -17,7 +17,7 @@ RUN pacman \
       openssl \
       patch \
       pkg-config \
-      autoreconf \
+      autoconf \
       cmake \
       meson \
       sudo && \
