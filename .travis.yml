@@ -11,8 +11,8 @@ script:
   - make
 
 before_deploy:
-  - git config --local user.name "Alexandre Carlton"
-  - git config --local user.email "acar7163@uni.sydney.edu.au"
+  - git config --local user.name "FFY00"
+  - git config --local user.email "filipe.lains@gmail.com"
 
   - git tag -d $(git tag)
   # Delete the (previous) latest release, since Travis will not update the packages otherwise.
@@ -27,4 +27,4 @@ deploy:
   file_glob: true
   skip_cleanup: true
   on:
-    repo: AlexandreCarlton/arch-on-github
+    repo: FFY00/arch-on-github
