@@ -19,6 +19,7 @@ RUN pacman \
       pkg-config \
       cmake \
       meson \
+      boost \
       sudo && \
     pacman \
       --sync \
